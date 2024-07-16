@@ -1,0 +1,45 @@
+
+nav
+{
+    z-index: 2;
+}
+.navbar-brand {
+    width: 70px;
+}
+.main_sec{
+    background-image: url(../img/سيدي-جابر-للغان.png);
+background-repeat: no-repeat;
+background-position: top;
+background-size: cover;
+}
+.main_info{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    padding: 15px;
+    width: fit-content;
+}
+
+.event {
+    position: relative;
+}
+
+.desc {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+.event:hover .desc {
+    visibility: visible;
+}
+footer{
+    color: antiquewhite;
+
+}
