@@ -1,0 +1,17 @@
+.courseCard{
+    border: solid 1px #d7cece;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.courseCard p{
+    color: #8e8686;
+}
+
+.price{
+    background-color: #2d76b2;
+    padding: 3px;
+    color: #fff;
+    font-weight: 500;
+}
+

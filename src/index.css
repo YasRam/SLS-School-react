@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* navbar */
+nav {
+  z-index: 2;
+}
+
+.navbar-brand {
+  width: 70px;
+}
+
+/* home */
+.main_sec {
+  background-image: url(img/سيدي-جابر-للغان.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  transition: all 1s;
+  overflow: hidden;
+}
+
+.main_sec:hover{
+  transform: scale(1.05);
+  overflow: hidden;
+
+}
+
+.main_sec:hover .main_info{
+  display: block;
+}
+
+.layer{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+/* height: 100vh; */
+}
+
+.main_info {
+  display: none;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: aliceblue;
+  padding: 15px;
+  
+  /* width: fit-content; */
+  /* width: 100%; */
+  /* height: 100vh; */
+}
+
+/* events */
+#events{
+  margin-bottom: 25px;
+}
+
+.event {
+  position: relative;
+  /* transform: translate(0px,-10px); */
+}
+
+.event:hover {
+  position: relative;
+  transform: translate(0px,-10px);
+  transition: all 0.5s;
+}
+
+.desc {
+  background-color: rgba(0, 0, 0 );
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+  border-radius: 10px;
+  transition: all 1s;
+  opacity: 0;
+}
+
+.event:hover .desc {
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
+
+/* footer */
+footer {
+  color: antiquewhite;
+
+}
