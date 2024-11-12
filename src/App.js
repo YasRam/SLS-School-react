@@ -12,6 +12,7 @@ import News from './components/News/News';
 import Courses from './components/Courses/Courses';
 import Error from './components/Error/Error';
 import Detailes from './components/Detailes/Detailes';
+import SayAboutUs from './components/SayAboutUs/SayAboutUs';
 
 function App() {
   return (
@@ -23,13 +24,17 @@ function App() {
         <Route path='/aboutUs' element={< AboutUs />} />
         <Route path='/events' element={< Events />} />
         <Route path='/contact' element={< Contact />} />
-        <Route path='/link' element={<>
-          <Detailes/>
-        </>} />
         <Route path='/upcoming' element={< Upcoming />} />
         <Route path='/news' element={< News />} />
         <Route path='/courses' element={< Courses />} />
+        <Route path='/detailes' element={< Detailes />} />
+        <Route path='/sayAboutUs' element={< SayAboutUs />} />
 
+        <Route path='/link' element={<>
+
+          <SayAboutUs/>
+
+        </>} />
 
         <Route path='*' element={< Error />} />
       </Routes>
