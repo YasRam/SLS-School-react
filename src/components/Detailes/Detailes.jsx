@@ -1,6 +1,6 @@
 import React from 'react'
 import VirticalCard from '../Card/VirticalCard'
-import img from "../../img/598c73df27313.png"
+import img from "../../img/logo.png"
 
 export default function Detailes() {
     return (

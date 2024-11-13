@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import img from "../../img/598c73df27313.png"
+import img from "../../img/logo.png"
 
 export default function VirticalCard() {
     return (

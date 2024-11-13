@@ -1,5 +1,12 @@
 import React from 'react'
-import img from "../../img/598c73df27313.png"
+
+import img from "../../img/logo.png"
+import French from "../../img/course/French.webp"
+import Italian from "../../img/course/Italian.jpeg"
+import English from "../../img/course/english.jpg"
+import main from "../../img/course/default.jpg"
+import german from "../../img/course/german.jpeg"
+
 import "./CoursesStyle.css"
 import Card from '../Card/Card'
 export default function Courses() {
@@ -30,10 +37,11 @@ export default function Courses() {
 
             <div className="container">
                 <div className="row justify-content-around">
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
+                    <Card cImg={French} cName='French' cDetailes='basic of french' cPrice='200' cTeacher='naglaa amer' />
+                    <Card cImg={Italian} cName='French' cDetailes='basic of french' cPrice='200' cTeacher='mona amer' />
+                    <Card cImg={English} cName='French' cDetailes='basic of french' cPrice='200' cTeacher='saad amer' />
+                    <Card cImg={german} cName='French' cDetailes='basic of german' cPrice='200' cTeacher='ali amer' />
+
                 </div>
             </div>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../../img/598c73df27313.png"
+import img from "../../img/logo.png"
 export default function Events() {
   return (
     <section class="pb-4 text-center container" id="events">

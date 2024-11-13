@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../../img/598c73df27313.png"
+import img from "../../img/logo.png"
 import VirticalCard from '../Card/VirticalCard'
 
 export default function News() {
