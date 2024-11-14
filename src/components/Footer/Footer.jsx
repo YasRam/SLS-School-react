@@ -9,12 +9,20 @@ export default function Footer() {
   return (< div className=''>
 
     <div className="p-3 m-0 mt-3 bg-opacity-75 bg-dark text-light w-100 row justify-content-between align-items-center">
+      <div className="col-12 col-md-6">
+        <div className="row justify-content-around">
+          <div className="col-5">
+            <img src={img} alt="" width="100%" />
+          </div>
 
-      <div className="col-2">
-        <img src={img} alt="" width="100%" />
+          <div className="col-4">
+            <img src={logo} alt="" width="100%" />
+          </div>
+        </div>
       </div>
 
-      <div className="col-3">
+
+      <div className="col-12 col-md-3">
         <h4>Quick links</h4>
         <div className="row">
           <div className="col-6">
@@ -54,20 +62,18 @@ export default function Footer() {
               <li className="nav-item">
                 <Link className="nav-link" to="link">edit</Link>
               </li>
-            </ul>          
+            </ul>
           </div>
         </div>
-        <Follow/>
       </div>
 
-      <div className="col-2">
-        <img src={logo} alt="" width="100%" />
-      </div>
+
+      <Follow />
 
     </div>
     <footer className="pb-0 m-0 text-center bg-dark">
 
-      <p className="p-0 m-0">copyrightd</p>
+      <p className="p-0 m-0">copyright</p>
     </footer>
   </div>
 
