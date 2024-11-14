@@ -31,11 +31,13 @@ import workshop from "../../img/events/workshop.jpg"
 
 export default function Events() {
     return (
-        <section className="pb-4 text-center container" id="events">
+        <section className="pb-4 text-center" id="events">
             <h2 className="p-3">Our events</h2>
             <div className="event mb-3">
                 <img src={IMG} className="w-100" alt="" />
             </div>
+
+            <div className="container">
             <div className="row ">
                 {/* <div className="col-4 event mb-3">
                 <div className="desc d-flex justify-content-center align-items-end mx-2">
@@ -74,38 +76,46 @@ export default function Events() {
                 <img src={img} className="w-100" alt=""/>
             </div> */}
 
-                <div className="col-4">
+                <div className="col-6 col-md-3">
                     <img src={sss} className="w-100 mb-2" alt="" />
                     <img src={Popular} className="w-100 mb-2" alt="" />
                     <img src={basketball} className="w-100 mb-2" alt="" />
                     <img src={frist} className="w-100 mb-2" alt="" />
                     <img src={karate} className="w-100 mb-2" alt="" />
-                    <img src={martialArts} className="w-100 mb-2" alt="" />
-                    <img src={olymp} className="w-100 mb-2" alt="" />
+                    
 
                 </div>
-                <div className="col-4">
-                    <img src={Coral} className="w-100 mb-2" alt="" />
-                    <img src={army} className="w-100 mb-2" alt="" />
-                    <img src={dream} className="w-100 mb-2" alt="" />
-                    <img src={fun} className="w-100 mb-2" alt="" />
+                <div className="col-6 col-md-3">
+                    
+                    
                     <img src={knowlage} className="w-100 mb-2" alt="" />
                     <img src={musem} className="w-100 mb-2" alt="" />
                     <img src={phlistine} className="w-100 mb-2" alt="" />
                     <img src={win} className="w-100 mb-2" alt="" />
                     <img src={workshop} className="w-100 mb-2" alt="" />
+                    <img src={dream} className="w-100 mb-2" alt="" />
+                    <img src={back} className="w-100 mb-2" alt="" />
 
                 </div>
-                <div className="col-4">
+                <div className="col-6 col-md-3">
 
-                    <img src={Gymnastics} className="w-100 mb-2" alt="" />
-                    <img src={back} className="w-100 mb-2" alt="" />
+                    
                     <img src={egypt} className="w-100 mb-2" alt="" />
                     <img src={innovation} className="w-100 mb-2" alt="" />
                     <img src={learn} className="w-100 mb-2" alt="" />
                     <img src={music} className="w-100 mb-2" alt="" />
                     <img src={schools} className="w-100 mb-2" alt="" />
                     <img src={trip} className="w-100 mb-2" alt="" />
+                    <img src={fun} className="w-100 mb-2" alt="" />
+
+                </div>
+                <div className="col-6 col-md-3">
+
+                <img src={martialArts} className="w-100 mb-2" alt="" />
+                <img src={olymp} className="w-100 mb-2" alt="" />
+                <img src={Coral} className="w-100 mb-2" alt="" />
+                <img src={army} className="w-100 mb-2" alt="" />
+                <img src={Gymnastics} className="w-100 mb-2" alt="" />
 
                 </div>
 {/*                 
@@ -182,7 +192,8 @@ export default function Events() {
                     <img src={workshop} className="w-100" alt="" />
                 </div> */}
             </div>
-            <button className='btn btn-info'>All Event</button>
+            </div>
+            {/* <button className='btn btn-info'>All Event</button> */}
         </section>
     )
 }
