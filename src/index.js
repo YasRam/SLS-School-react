@@ -10,6 +10,9 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, RouterProvider } from 'react-router-dom';
 
 
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

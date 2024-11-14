@@ -2,6 +2,7 @@ import React from 'react'
 import img from "../../img/logo.png"
 import logo from "../../img/logo2.png"
 import { Link } from 'react-router-dom'
+import Follow from '../Follow/Follow'
 
 
 export default function Footer() {
@@ -33,8 +34,8 @@ export default function Footer() {
               <li className="nav-item">
                 <Link className="nav-link" to="upcoming">UpComing</Link>
               </li>
-            </ul>          
-            </div>
+            </ul>
+          </div>
 
           <div className="col-6">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
@@ -53,8 +54,10 @@ export default function Footer() {
               <li className="nav-item">
                 <Link className="nav-link" to="link">edit</Link>
               </li>
-            </ul>          </div>
+            </ul>          
+          </div>
         </div>
+        <Follow/>
       </div>
 
       <div className="col-2">

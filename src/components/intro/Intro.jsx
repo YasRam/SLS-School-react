@@ -5,8 +5,8 @@ import mission from "../../img/school/mission.jpg"
 
 export default function Intro() {
   return (
-    <section class=" text-center container">
-      <h2 class="p-3" id="about_us">Intro</h2>
+    <section className=" text-center container">
+      <h2 className="p-3" id="about_us">Intro</h2>
 
       <div className='vision text-start row align-items-center mb-5 bg-vc_btn-success justify-content-between'>
         <div className="content col-12 col-md-8 ">

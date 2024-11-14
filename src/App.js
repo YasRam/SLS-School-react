@@ -13,6 +13,7 @@ import Courses from './components/Courses/Courses';
 import Error from './components/Error/Error';
 import Detailes from './components/Detailes/Detailes';
 import SayAboutUs from './components/SayAboutUs/SayAboutUs';
+import Follow from './components/Follow/Follow';
 
 function App() {
   return (
@@ -31,9 +32,7 @@ function App() {
         <Route path='/sayAboutUs' element={< SayAboutUs />} />
 
         <Route path='/link' element={<>
-
-          <SayAboutUs/>
-
+          <Follow/>
         </>} />
 
         <Route path='*' element={< Error />} />
