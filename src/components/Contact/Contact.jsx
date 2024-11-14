@@ -8,7 +8,7 @@ export default function Contact() {
       <h2 className="p-3" id="contact_us">Contact us</h2>
 
       <div className="row m-3 ">
-        <div className="col-6 text-start m-auto">
+        <div className="col-12 col-md-6 text-start m-auto">
           <div className="pb-1">
             <h5 className="d-inline-block">Phone 1:</h5>
             <p className="d-inline-block ps-2">012X XXX XXXX</p>
@@ -35,7 +35,7 @@ export default function Contact() {
           </div>
           <Follow className="w-50 bg-body-secondary"/>
         </div>
-        <div className="col-6 event mb-3">
+        <div className="col-12 col-md-6 event mb-3">
           {/* <div className="desc d-flex justify-content-center align-items-end mx-2">
             العاب
           </div>
