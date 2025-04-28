@@ -38,87 +38,59 @@ export default function Events() {
             </div>
 
             <div className="container">
-            <div className="row ">
-                {/* <div className="col-4 event mb-3">
-                <div className="desc d-flex justify-content-center align-items-end mx-2">
-                    العاب
-                </div>
-                <img src={img} className="w-100" alt=""/>
-            </div>
-            <div className="col-4 event mb-3">
-                <div className="desc d-flex justify-content-center align-items-end mx-2">
-                    العاب
-                </div>
-                <img src={img} className="w-100" alt=""/>
-            </div>
-            <div className="col-4 event mb-3">
-                <div className="desc d-flex justify-content-center align-items-end mx-2">
-                    العاب
-                </div>
-                <img src={img} className="w-100" alt=""/>
-            </div>
-            <div className="col-4 event mb-3">
-                <div className="desc d-flex justify-content-center align-items-end mx-2">
-                    العاب
-                </div>
-                <img src={img} className="w-100" alt=""/>
-            </div>
-            <div className="col-4 event mb-3">
-                <div className="desc d-flex justify-content-center align-items-end mx-2">
-                    العاب
-                </div>
-                <img src={img} className="w-100" alt=""/>
-            </div>
-            <div className="col-4 event mb-3">
-                <div className="desc d-flex justify-content-center align-items-end mx-2">
-                    العاب
-                </div>
-                <img src={img} className="w-100" alt=""/>
-            </div> */}
+                <div className="row ">
+                    {/* <div className="col-4 event mb-3">
+                        <div className="desc d-flex justify-content-center align-items-end mx-2">
+                            العاب
+                        </div>
+                        <img src={img} className="w-100" alt="" />
+                    </div> */}
 
-                <div className="col-6 col-md-3">
-                    <img src={sss} className="w-100 mb-2" alt="" />
-                    <img src={Popular} className="w-100 mb-2" alt="" />
-                    <img src={basketball} className="w-100 mb-2" alt="" />
-                    <img src={frist} className="w-100 mb-2" alt="" />
-                    <img src={karate} className="w-100 mb-2" alt="" />
-                    
 
-                </div>
-                <div className="col-6 col-md-3">
-                    
-                    
-                    <img src={knowlage} className="w-100 mb-2" alt="" />
-                    <img src={musem} className="w-100 mb-2" alt="" />
-                    <img src={phlistine} className="w-100 mb-2" alt="" />
-                    <img src={win} className="w-100 mb-2" alt="" />
-                    <img src={workshop} className="w-100 mb-2" alt="" />
-                    <img src={dream} className="w-100 mb-2" alt="" />
-                    <img src={back} className="w-100 mb-2" alt="" />
 
-                </div>
-                <div className="col-6 col-md-3">
+                    <div className="col-6 col-md-3">
+                        <img src={sss} className="w-100 mb-2" alt="" />
+                        <img src={Popular} className="w-100 mb-2" alt="" />
+                        <img src={basketball} className="w-100 mb-2" alt="" />
+                        <img src={frist} className="w-100 mb-2" alt="" />
+                        <img src={karate} className="w-100 mb-2" alt="" />
 
-                    
-                    <img src={egypt} className="w-100 mb-2" alt="" />
-                    <img src={innovation} className="w-100 mb-2" alt="" />
-                    <img src={learn} className="w-100 mb-2" alt="" />
-                    <img src={music} className="w-100 mb-2" alt="" />
-                    <img src={schools} className="w-100 mb-2" alt="" />
-                    <img src={trip} className="w-100 mb-2" alt="" />
-                    <img src={fun} className="w-100 mb-2" alt="" />
 
-                </div>
-                <div className="col-6 col-md-3">
+                    </div>
+                    <div className="col-6 col-md-3">
 
-                <img src={martialArts} className="w-100 mb-2" alt="" />
-                <img src={olymp} className="w-100 mb-2" alt="" />
-                <img src={Coral} className="w-100 mb-2" alt="" />
-                <img src={army} className="w-100 mb-2" alt="" />
-                <img src={Gymnastics} className="w-100 mb-2" alt="" />
 
-                </div>
-{/*                 
+                        <img src={knowlage} className="w-100 mb-2" alt="" />
+                        <img src={musem} className="w-100 mb-2" alt="" />
+                        <img src={phlistine} className="w-100 mb-2" alt="" />
+                        <img src={win} className="w-100 mb-2" alt="" />
+                        <img src={workshop} className="w-100 mb-2" alt="" />
+                        <img src={dream} className="w-100 mb-2" alt="" />
+                        <img src={back} className="w-100 mb-2" alt="" />
+
+                    </div>
+                    <div className="col-6 col-md-3">
+
+
+                        <img src={egypt} className="w-100 mb-2" alt="" />
+                        <img src={innovation} className="w-100 mb-2" alt="" />
+                        <img src={learn} className="w-100 mb-2" alt="" />
+                        <img src={music} className="w-100 mb-2" alt="" />
+                        <img src={schools} className="w-100 mb-2" alt="" />
+                        <img src={trip} className="w-100 mb-2" alt="" />
+                        <img src={fun} className="w-100 mb-2" alt="" />
+
+                    </div>
+                    <div className="col-6 col-md-3">
+
+                        <img src={martialArts} className="w-100 mb-2" alt="" />
+                        <img src={olymp} className="w-100 mb-2" alt="" />
+                        <img src={Coral} className="w-100 mb-2" alt="" />
+                        <img src={army} className="w-100 mb-2" alt="" />
+                        <img src={Gymnastics} className="w-100 mb-2" alt="" />
+
+                    </div>
+                    {/*                 
                 <div className="col-4 event mb-3">
                     <img src={sss} className="w-100" alt="" />
                 </div>
@@ -191,7 +163,7 @@ export default function Events() {
                 <div className="col-4 event mb-3">
                     <img src={workshop} className="w-100" alt="" />
                 </div> */}
-            </div>
+                </div>
             </div>
             {/* <button className='btn btn-info'>All Event</button> */}
         </section>
